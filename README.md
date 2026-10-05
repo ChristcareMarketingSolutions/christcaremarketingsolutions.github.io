@@ -9,3 +9,5 @@ Root GitHub Pages site for the ChristcareMarketingSolutions account.
   (Play Console → Setup → App signing) to `sha256_cert_fingerprints`.
 - `.nojekyll`: needed so GitHub Pages serves the `.well-known` folder.
 - `index.html`: forwards visitors to Bible Buddies.
+- `robots.txt`: search engines only read robots.txt at the top of the address, so this one
+  lists the Bible Buddies sitemap for Google and Bing.
